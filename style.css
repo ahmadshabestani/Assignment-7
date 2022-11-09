@@ -1,0 +1,342 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    z-index: 1;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    position: relative;
+    right: 40px;
+    top: -5px;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.menu li a:hover {
+    background-color: white;
+    color: black;
+}
+
+#img-home {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.log {
+    padding-right: 10px;
+}
+
+#logo a {
+    background-color: darkcyan;
+}
+
+#logo a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+#search {
+    position: absolute;
+    right: -6px;
+    top: 10px;
+}
+
+#search a:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.sum-menu ul li{
+    display: none;
+}
+
+.sum-menu li a {
+    width: 144px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 412px;
+    top: 17px;
+}
+.sum-menu li a:hover{
+    background-color: darkgray;
+}
+
+.sum-menu:hover ul li{
+    display: flex;
+}
+
+.img-header{
+    width: 100%;
+}
+.img-header img{
+    width: 100%;
+    height: 500px;
+}
+.img-header h2{
+    width: 220px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 130px;
+    left: 20px;
+}
+.img-header h2:hover{
+    background-color: darkcyan;
+}
+
+.main{
+    width: 100%;
+}
+
+.sec1{
+    width: 100%;
+}
+.sec1 h2,#p-meet{
+    text-align: center;
+}
+.cards{
+    display: inline-block;
+    margin-left: 150px;
+}
+.cards img{
+    border-radius: 50%;
+    width: 150px;
+}
+.cards img:hover{
+    opacity: 0.6;
+}
+.cards h3,.cards p{
+    text-align: center;
+}
+
+.sec2{
+    background-color: #333333;
+    width: 100%;
+    height: 600px;
+}
+.sec2 .p-text{
+    display: inline-block;
+    color: white;
+    width: 20%;
+    margin: 10px;
+}
+.card2{
+    width: 22%;
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+}
+.card2 img{
+    width: 297px;
+}
+.card2 h3,.card2 p{
+    text-align: left;
+    margin: 10px;
+}
+
+.icon-plus {
+    width: 45px;
+    height: 45px;
+    background-color: darkcyan;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    right: 50px;
+    margin-top: 97px;
+}
+.icon-plus i{
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+.icon-plus:hover{
+    background-color: darkgray;
+    color: black;
+}
+.sec3{
+    width: 100%;
+}
+.sec3 h3,.sec3 p{
+    text-align: center;
+}
+.tds{
+    display: inline-block;
+    margin: 3px;
+}
+.tds table{
+    width: 430px;
+    border: 2px solid lightgray;
+}
+
+.tds table:hover{
+    box-shadow: 5px 10px 18px #333333;
+}
+
+.tds table tr td,.tds table tr th{
+    text-align: center;
+    height: 40px;
+    border-bottom: solid 1px lightgray;
+}
+.th-tb{
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+.th-tb2{
+    height: 60px;
+    background-color: darkgray;
+    color: white;
+}
+.tr-dollar td p{
+    margin: 5px;
+    color: darkgray;
+}
+.td-btn{
+    background-color: lightgray;
+    padding: 20px;
+}
+.td-btn button{
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+.td-btn button:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+.sec4{
+    width: 100%;
+    background-color: lightgray;
+    height: 450px;
+}
+.sec4 div{
+    display: inline-block;
+}
+.sec4-left{
+    margin: 20px;
+}
+.sec4-left h3{
+    border-bottom: 4px solid darkcyan;
+    width: 140px;
+}
+.sec4-left h3,.sec4-left p{
+    padding: 5px;
+    margin: 5px;
+}
+.sec4-right{
+    position: relative;
+    left: 230px;
+}
+.sec4-right form{
+    background-color: white;
+    width: 700px;
+    box-shadow: 5px 10px 18px #333333;
+    padding: 20px;
+    margin-top: 30px;
+}
+.input-form1{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 600px;
+}
+.check-form{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    position: relative;
+    top: 4px;
+    left: 7px;
+}
+.sub-form{
+    position: relative;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 65px;
+    height: 30px;
+    left: 480px;
+    top: 5px;
+}
+.sub-form:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 220px;
+    color: white;
+    position: relative;
+    top: -5px;
+}
+.footer h3,.footer div,.footer p{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.footer div button{
+    background-color: darkcyan;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.footer div button:hover{
+    background-color: lightgray;
+    color: black;
+}
+.icon-up{
+    position: absolute;
+    right: 50px;
+    top: 60px;
+
+}
+.icon-up a,.icon-up p{
+    display: inline-block;
+}
+.icon-up p{
+    background-color: darkcyan;
+}
+.ic-footer{
+    padding: 10px;
+}
+.ic-footer:hover{
+    background-color: lightgray;
+    padding: 10px;
+}
+.icon-up a p{
+    display: none;
+}
+.icon-up a:hover p {
+    display: inline-block;
+}
